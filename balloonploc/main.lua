@@ -3,7 +3,11 @@
 -----------------------------
 
 display.setStatusBar( display.HiddenStatusBar )
+local composer = require("composer")
+composer.gotoScene( "menuScene" )
 
+
+--[[
 -- Require
 require("physics" )
 
@@ -32,3 +36,5 @@ end
 
 
 test.image:addEventListener( "touch", onMouseEvent )
+
+]]
